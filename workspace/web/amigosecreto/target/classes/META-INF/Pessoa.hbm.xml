@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 27, 2015 9:20:43 AM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="br.com.amigosecreto.model.entity.Pessoa" table="pessoa">
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="increment" />
+		</id>
+		<property name="nome" type="java.lang.String" />
+		<property name="bilhete" type="java.lang.String" />
+		<property name="email" type="java.lang.String" />
+	</class>
+</hibernate-mapping>
